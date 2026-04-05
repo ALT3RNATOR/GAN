@@ -1,6 +1,6 @@
 # Generative Adversarial Network (GAN) - MNIST
 
-## 📌 Overview
+##  Overview
 
 This project implements a **Vanilla GAN** using TensorFlow to generate handwritten digits from the MNIST dataset.
 
@@ -13,7 +13,7 @@ It includes:
 
 ---
 
-## 🧠 What is a GAN?
+##  What is a GAN?
 
 A **Generative Adversarial Network (GAN)** consists of two neural networks:
 
@@ -24,7 +24,7 @@ They compete in a **minimax game**.
 
 ---
 
-## ⚙️ How GAN Works
+##  How GAN Works
 
 1. Sample random noise → Generator creates fake image
 2. Discriminator evaluates:
@@ -39,7 +39,7 @@ They compete in a **minimax game**.
 
 ---
 
-## 📐 Mathematical Formulation
+##  Mathematical Formulation
 
 ### GAN Objective Function
 
@@ -65,7 +65,7 @@ $$
 
 ---
 
-## 📊 Evaluation Metric
+##  Evaluation Metric
 
 ### FID Score (Fréchet Inception Distance)
 
@@ -77,7 +77,7 @@ Lower FID = better quality
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Install dependencies:
 
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Train GAN
 
